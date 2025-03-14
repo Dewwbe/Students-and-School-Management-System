@@ -1,0 +1,38 @@
+/* Navbar container styles */
+.navbar {
+    background-color: navy; /* Set navbar background to navy blue */
+    color: white; /* Text color white */
+    padding: 16px; /* Add padding */
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between; /* Distribute space between title and links */
+    align-items: center; /* Vertically align items in the center */
+    max-width: 1200px;
+    margin: 0 auto; /* Center the navbar */
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Navigation links container */
+  .nav-links {
+    display: flex;
+    gap: 24px; /* Space between links */
+  }
+  
+  /* Navigation link styles */
+  .nav-link {
+    color: white; /* Set text color to white */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 16px;
+  }
+  
+  .nav-link:hover {
+    color: lightblue; /* Change link color on hover */
+  }
+  
